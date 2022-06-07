@@ -4,7 +4,7 @@
   <% if @listing.picture.attached? %>
     <%= image_tag @listing.picture, alt: @listing.title %>
   <% else %>
-    <%= image_tag @listing.picture, alt: @listing.title %>
+    <%= image_tag "http://placekitten.com/400/600", alt: @listing.title %>
   <% end %>
 </div>
 

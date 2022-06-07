@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-categories = []
+categories = ["mechanical", "graphics", "office", "carbon", "shading", "kids", "quill", "coloured" ]
 
 if Category.count == 0
     categories.each do |category|

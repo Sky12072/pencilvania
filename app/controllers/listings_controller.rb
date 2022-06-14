@@ -3,7 +3,7 @@ class ListingsController < ApplicationController
   before_action :set_form_vars, only: %i[ new edit ]
   before_action :authenticate_user!, except: [:index, :show]
   before_action :authorize_user, only: [:edit, :update, :destroy]
-
+  #test
 
   # GET /listings or /listings.json
   def index
